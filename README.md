@@ -1,5 +1,7 @@
 # gnop-qr-code
 
+check out [our test here](https://nuxt-qrcode.herokuapp.com).
+
 ## Build Setup
 
 ```bash
@@ -18,4 +20,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
 # nuxt-qrcode
