@@ -6,7 +6,7 @@
         <v-col cols="12">
           <span class="red white--text pa-5 mb-15">QR-CODE Generator </span>
         </v-col>
-        <v-col cols="5">
+        <v-col cols="12" class="d.flex" md="5">
           <div class="input">
             <v-text-field
               class="ma-8"
@@ -16,19 +16,19 @@
             ></v-text-field>
           </div>
         </v-col>
-        <v-col cols="7">
+        <v-col cols="12" md="7">
           <div class="drawer">
             <qrcode-vue :value="value" :size="size" level="H"></qrcode-vue></div
         ></v-col>
       </v-row>
-
+      <v-divider class="my-5"></v-divider>
       <!--  qr-code redear -->
       <v-row>
         <v-col cols="12">
           <span class="warning white--text pa-5 mb-15">QR-CODE READER</span>
         </v-col>
         <!-- result column -->
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <div class="response mt-16">
             <span class="grey--text text--darken-3 my-16 font-weight-bold">
               QR-CODE READER Result: {{ result }}
@@ -41,7 +41,7 @@
         </v-col>
 
         <!-- redear column -->
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <div class="reader">
             <client-only>
               <!-- use client camera -->
