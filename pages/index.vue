@@ -53,7 +53,7 @@
                 @init="logErrors"
               >
                 <div class="drop-area" :class="{ dragover: dragover }">
-                  DROP SOME IMAGES HERE
+                  DROP SOME QRCODE IMAGES HERE
                 </div>
               </qrcode-drop-zone>
               <qrcode-capture @decode="onDecode"></qrcode-capture>
