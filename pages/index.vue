@@ -18,7 +18,7 @@
         </v-col>
         <v-col cols="12" md="7">
           <div class="drawer">
-            <qrcode-vue :value="value" :size="size" level="H"></qrcode-vue></div
+            <QrCode :value="value" /></div
         ></v-col>
       </v-row>
       <v-divider class="my-5"></v-divider>
@@ -66,10 +66,10 @@
 </template>
 
 <script>
-import QrcodeVue from "qrcode.vue";
+import QRCode from "@/components/QRCode";
 export default {
   components: {
-    QrcodeVue,
+    QRCode,
   },
   data() {
     return {
