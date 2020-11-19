@@ -12,6 +12,18 @@ export default {
       type: String,
       required: true,
     },
+    image: {
+      type: String,
+      required: true,
+    },
+    dotsColor: {
+      type: String,
+      required: true,
+    },
+    backgroundColor: {
+      type: String,
+      required: true,
+    },
   },
   methods: {
     getQRCode() {
@@ -22,14 +34,13 @@ export default {
         width: 300,
         height: 300,
         data: this.value,
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+        image: this.image,
         dotsOptions: {
-          color: "#4267b2",
+          color: this.dotsColor,
           type: "rounded",
         },
         backgroundOptions: {
-          color: "#e9ebee",
+          color: this.backgroundColor,
         },
         imageOptions: {
           crossOrigin: "anonymous",

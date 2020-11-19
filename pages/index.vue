@@ -18,7 +18,12 @@
         </v-col>
         <v-col cols="12" md="7">
           <div class="drawer">
-            <QrCode :value="value" /></div
+            <QrCode
+              :value="value"
+              image="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+              dotsColor="#4267b2"
+              backgroundColor="#e9ebee"
+            /></div
         ></v-col>
       </v-row>
       <v-divider class="my-5"></v-divider>
