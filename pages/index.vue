@@ -20,9 +20,9 @@
           <div class="drawer">
             <QrCode
               :value="value"
-              image="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
-              dotsColor="#4267b2"
-              backgroundColor="#e9ebee"
+              image="/images/carelic_icon_red.svg"
+              dotsColor="#FF4757"
+              backgroundColor="#fcedee"
             /></div
         ></v-col>
       </v-row>
